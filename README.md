@@ -55,17 +55,17 @@ My environment is based on
 * pip3 install opencv-python
 * pip3 install scikit-learn
 
-# confirm config.py
+# 1. confirm config.py
 * choose and change parameter in config.py
 
-# train or test  dataset prepare
+# 2. train or test  dataset prepare
 * python3 mk_class_idx.py
 
-# train your model
+# 3. train your model
 * train model: python3 train.py modelName
 * or run " __sh trainAll.sh__ " to train all model
 
-# predict your model
+# 4. predict your model
 * predict model: python3 predict.py model_name classes_name
 
 ### Any Questions???
