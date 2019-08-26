@@ -55,6 +55,9 @@ My environment is based on
 * pip3 install opencv-python
 * pip3 install scikit-learn
 
+# confirm config.py
+* choose and change parameter in config.py
+
 # train or test  dataset prepare
 * python3 mk_class_idx.py
 
