@@ -19,7 +19,7 @@
 * DenseNet(dismissed this time)
 
 
-##train or test dataset
+## train or test dataset
 
 
 ####  classes name contained in folder name
