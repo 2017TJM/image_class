@@ -56,7 +56,7 @@ My environment is based on
 * pip3 install scikit-learn
 
 # 1. confirm config.py
-* choose and change parameter in config.py
+* choose model and change parameter in config.py
 
 # 2. train or test  dataset prepare
 * python3 mk_class_idx.py
@@ -66,7 +66,7 @@ My environment is based on
 * or run " __sh trainAll.sh__ " to train all model
 
 # 4. predict your model
-* predict model: python3 predict.py model_name classes_name
+* predict model: python3 predict.py modelName classesName
 
 ### Any Questions???
 Author email: mymailwith163@163.com
