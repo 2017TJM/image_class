@@ -24,9 +24,9 @@ class DefaultConfig():
         normal_size = 64
     # normal_size = 48
     epochs = 30
-    batch_size = 8
+    batch_size = 2
     data_augmentation = False
-    classes = 49
+    classes = 2
     channles = 3 # or 3 or 1
 
     lr = 0.00001
