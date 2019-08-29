@@ -64,7 +64,7 @@ My environment is based on
 # 3. train your model
 * train model: python3 train.py modelName
 * or run " __sh trainAll.sh__ " to train all model
-* for VGG16,run " __tensorboard --logdir=/home/tsl/PycharmProjects/image_class/checkpoints/VGG16__ " to watch training with tensorboard
+* take VGG16 as example, run " __tensorboard --logdir=/home/tsl/PycharmProjects/image_class/checkpoints/VGG16__ " to watch training with tensorboard
 
 # 4. predict your model
 * predict model: python3 predict.py modelName classesName
