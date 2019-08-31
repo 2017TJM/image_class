@@ -34,6 +34,8 @@ __"training or testing dataset folder is:"__
 /path/classes4/*.jpg,
 
 
+
+
 * Attentions ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 * classes name must be contained in folder name 
 
@@ -68,6 +70,7 @@ My environment is based on
 
 # 4. predict your model
 * predict model: python3 predict.py modelName classesName
+
 
 ### Any Questions???
 Author email: mymailwith163@163.com
