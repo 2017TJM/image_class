@@ -10,8 +10,12 @@ msg: You can choose the following model to train your image, and just choose in 
 
 import sys
 class DefaultConfig():
-    # model_name = 'ResNet34'
-    model_name = sys.argv[1]
+   
+    try:
+        model_name = sys.argv[1]
+    except:
+        print("use default model VGG16")
+        model_name = 'VGG16'
     train_data_path = '/media/tsl/DataBackup/TrafficSignalDataset/training/'
     test_data_path = '/media/tsl/DataBackup/TrafficSignalDataset/testing/'
     checkpoints = './checkpoints/'
